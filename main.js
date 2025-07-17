@@ -9,7 +9,7 @@ doc.pipe(fs.createWriteStream(fileName));
 
 doc
     .fontSize(22)
-    .text('📝 Recordatorio Personal', { align: 'center' })
+    .text('Recordatorio Personal', { align: 'center' })
     .moveDown();
 
 doc
@@ -20,11 +20,11 @@ doc
 doc.text('Tareas:', { underline: true });
 
 tareas.forEach((tarea, index) => {
-    doc.text(`${index + 1}. ☐ ${tarea}`);
+    doc.text(`${index + 1}. ${tarea}`);
 });
 
 doc.end();
-console.log(`✅ PDF creado: ${fileName}`);
+console.log(`👍 PDF creado: ${fileName}`);
 }
 
 async function mainMenu() {
@@ -61,9 +61,9 @@ switch (opcion) {
 
     case '2. Ver descripción del problema':
     console.log(`
-🧠 Problema:
+🚫 Problema:
 Las personas suelen olvidar tareas cotidianas. Esta app de consola permite generar un PDF con tareas o recordatorios para ayudar a organizar el día y evitar olvidos. Ideal para imprimir o guardar en el celular.
-📚 Solución:
+✅ Solución:
 Usamos la librería pdfkit para crear documentos PDF personalizados directamente desde la consola.
 `);
     break;
