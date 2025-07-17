@@ -86,7 +86,7 @@ Editar
 
 Con este menu puedes interactuar usando las flechas de tu teclado y el enter, para conocer mejor como se usa, prepare un video que te dejo aquí abajo para que puedas saber mejor como funciona y como se usa.
 
-video: [text](https://youtu.be/6pd0ggSD3nA)
+[Video de la explicación](https://youtu.be/6pd0ggSD3nA)
 
 ## Desarrollado por:
 Alejandro Naranjo Marin
