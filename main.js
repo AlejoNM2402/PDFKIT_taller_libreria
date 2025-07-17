@@ -52,7 +52,7 @@ switch (opcion) {
     const { tareasInput } = await inquirer.prompt({
         type: 'input',
         name: 'tareasInput',
-        message: 'Escribe las tareas separadas por comas:',
+        message: 'Escribe las tareas separadas por comas:', 
     });
 
     const tareas = tareasInput.split(',').map(t => t.trim());
@@ -74,7 +74,7 @@ Usamos la librería pdfkit para crear documentos PDF personalizados directamente
 }
 
 console.log('\n');
-  await mainMenu(); // Volver al menú
+await mainMenu(); 
 }
 
 mainMenu();
